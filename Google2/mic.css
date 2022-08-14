@@ -1,0 +1,50 @@
+*{
+    background-color: rgb(46, 43, 43);
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    display:flex ;
+}
+
+.carpi i{
+    position: absolute;
+    right: 35px;
+    top: 30px;
+    padding: 15px;
+    color: rgb(110, 107, 107);
+
+}
+.carpi i:hover{
+    background-color: rgb(65, 56, 56);
+    border-radius: 40px;
+}
+
+.container{
+    display: flex; 
+    margin-top: 147px;
+    margin-left: 300px;
+    
+}
+
+.container .yazi{
+    color: rgb(110, 107, 107);
+    margin: auto;
+    
+}
+
+.container .gorsel i{
+    color: rgb(110, 107, 107) ;
+    border: rgb(110, 107, 107) solid 1px;
+    border-radius: 300px;
+    margin-left: 170px;
+    padding: 60px;
+    font-size: 80px;
+    transform: initial;
+}
+
+.container .gorsel i:hover{
+    background-color:rgb(65, 56, 56);
+    transition: all .3s linear;
+}
